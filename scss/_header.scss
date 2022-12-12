@@ -1,19 +1,19 @@
 header {
+    background: #fff;
     position: fixed;
     top: 0;
-    z-index: 100;
     width: 100%;
-    background: #fff;
+    z-index: 100;
 
     .topbar {
         background-color: #353535;
         height: 24px;
         p {
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 18px;
-            text-align: center;
             color: #FFFFFF;
+            line-height: 18px;
+            font-size: 12px;
+            font-weight: 400;
+            text-align: center;
         }
     }
     
@@ -25,14 +25,14 @@ header {
         }
 
         .container {
-            display: flex;
             align-items: center;
-            justify-content: space-between;
+            display: flex;
             height: 88px;
+            justify-content: space-between;
     
             .search {
-                width: 100%;
                 max-width: 791px;
+                width: 100%;
                 &-form {
                     display: flex;
                     position: relative;
@@ -43,25 +43,25 @@ header {
                     }
                 }
                 input {
-                    width: 100%;
-                    max-width: 672px;
-                    height: 40px;
-                    border-radius: 10px 0 0 10px;
                     background: #EFEFEF;
-                    padding-left: 24px;
-                    margin-right: 13px;
+                    border-radius: 10px 0 0 10px;
                     font-weight: 400;
                     font-size: 12px;
+                    height: 40px;
+                    margin-right: 13px;
                     margin-left: 15px;
+                    max-width: 672px;
+                    padding-left: 24px;
+                    width: 100%;
                     &::placeholder {
                         color: #353535;
                     }
                 }
                 button {
-                    font-weight: 400;
-                    font-size: 14px;
-                    line-height: 21px;
                     color: #FFFFFF;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
                     margin-right: 10px;
                 }
             }
@@ -79,8 +79,8 @@ header {
                     transition: fill .3s;
                 }
                 a {
-                    display: flex;
                     align-items: center;
+                    display: flex;
                     &:hover {
                         svg {
                             fill: #FAA500;
@@ -91,12 +91,12 @@ header {
                     }
     
                     span {
+                        color: #353535;
                         font-weight: 400;
                         font-size: 14px;
                         line-height: 21px;
-                        color: #353535;
-                        white-space: nowrap;
                         transition: color .3s;
+                        white-space: nowrap;
                     }
                 }
                 
@@ -126,19 +126,19 @@ header {
         box-shadow: inset 0px 4px 6px rgb(0 0 0 / 8%);
 
         .container {
-            display: flex;
             align-items: center;
-            justify-content: space-between;
+            display: flex;
             height: 48px;
+            justify-content: space-between;
             ul {
-                display: flex;
                 align-items: center;
+                display: flex;
                 justify-content: center;
-                width: 100%;
                 margin: 0 auto;
+                width: 100%;
                 li {
-                    width: 146px;
                     margin: 0 15px;
+                    width: 146px;
                     a {
                         align-items: center;
                         color: #353535;
@@ -164,8 +164,8 @@ header {
     @include responsive(800px) {
         .header-content {
             .logo {
-                display: flex;
                 align-items: center;
+                display: flex;
 
                 .menu-mobile {
                     display: block;

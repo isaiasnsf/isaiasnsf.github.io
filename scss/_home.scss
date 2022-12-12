@@ -1,6 +1,6 @@
 /*=== full banner ===*/
 .full-banner {
-    margin-top: 14.6rem;
+    margin-top: 146px;
     position: relative;
 
     .bannerFull-mobile {
@@ -41,18 +41,18 @@
     }
 
     .swiper-pagination-bullet {
-        width: 1.6rem;
-        height: 1.6rem;
         background: none;
         border: 2px solid #FAA500;
+        height: 16px;
         opacity: initial;
+        width: 16px;
         &-active {
             background: #FAA500;
         }
     }
 
     @include responsive(800px) {
-        margin-top: 9.7rem;
+        margin-top: 97px;
     }
 
     @include responsive(501px) {
@@ -65,13 +65,13 @@
         }
 
         .swiper-pagination-bullet {
-            width: 0.8rem;
-            height: 0.8rem;
+            width: 8px;
+            height: 8px;
             border: 1px solid #faa500;
         }
 
         .swiper-pagination {
-            bottom: 1.6rem;
+            bottom: 16px;
         }
     }
     
@@ -79,58 +79,58 @@
 
 /*=== rulers ===*/
 .rulers {
-    padding: 2.7rem 1.5rem 6.5rem;
+    padding: 27px 15px 65px;
     
     &-bg {
         background-color: #FAFAFA;
     }
     
     h3 {
-        font-weight: 700;
-        font-size: 1.6rem;
-        line-height: 2.4rem;
-        text-align: center;
         color: #353535;
-        margin-bottom: 2.2rem;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 22px;
+        text-align: center;
     }
     
     .container {
+        align-items: center;
         display: flex;
         justify-content: space-between;
-        align-items: center;
     }
 
     &-item {
-        display: flex;
         align-items: center;
         background-color: #EFEFEF;
-        padding: 1.4rem 2.7rem;
         border-radius: 4px;
+        display: flex;
+        padding: 14px 27px;
     }
 
     .icon {
-        margin-right: 2.2rem;
+        margin-right: 22px;
     }
 
     .info {
         p {
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 21px;
             color: #353535;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 21px;
         }
         span {
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 18px;
             color: #000000;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
         }
     }
 
     /* Responsive */
     @include responsive(480px) {
-        padding: 4rem 1.5rem 4rem;
         background-color: #fff;
+        padding: 40px 15px 40px;
 
         &-item {
             justify-content: center;
@@ -152,12 +152,12 @@
             background-color: #FAFAFA;
         }
         h2 {
-            font-weight: 700;
-            font-size: 32px;
-            line-height: 49px;
-            text-align: center;
             color: #353535;
-            margin-bottom: 1.7rem;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 49px;
+            margin-bottom: 17px;
+            text-align: center;
         }
 
         .brands-item {
@@ -172,21 +172,21 @@
 
     @include responsive(991px) {
         .brands-item {
-            display: flex;
             align-items: center;
+            display: flex;
             justify-content: center;
             padding: 0 20px;
         }
     }
 
     @include responsive(480px) {
-        margin-bottom: 0;
-        padding: 4rem 0;
         background-color: #fff;
+        margin-bottom: 0;
+        padding: 4px 0;
 
         h2 {
             line-height: 32px;
-            margin-bottom: 1.2rem;
+            margin-bottom: 12px;
         }
     }
 }
@@ -202,84 +202,84 @@
     }
 
     &-content {
-        margin: 0 2.7rem 0 2.7rem;
+        margin: 0 27px 0 27px;
     }
 
     &-info {
         span {
-            font-weight: 700;
-            font-size: 2rem;
-            line-height: 3rem;
             color: #353535;
-            margin-bottom: 0.2rem;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 30px;
+            margin-bottom: 2px;
         }
         h4 {
-            font-weight: 400;
-            font-size: 1.6rem;
-            line-height: 2.4rem;
             color: #000000;
-            margin-bottom: 0.8rem;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            margin-bottom: 8px;
         }
         p {
-            font-weight: 400;
-            font-size: 1.3rem;
-            line-height: 1.8rem;
             color: #7D7D7D;
-            margin-bottom: 0.8rem;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 18px;
+            margin-bottom: 8px;
         }
 
         .btn-primary {
-            width: 100%;
-            font-weight: 400;
-            font-size: 1.6rem;
-            line-height: 2.4rem;
             color: #FFFFFF;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            width: 100%;
         }
     }
 
     h2 {
+        color: #353535;
         font-weight: 700;
         font-size: 32px;
         line-height: 49px;
+        margin-bottom: 17px;
         text-align: center;
-        color: #353535;
-        margin-bottom: 1.7rem;
     }
 
     .swiper-button-prev {
-        left: 0;
         background-image: url(../img/arrow-prev.svg);
         background-repeat: no-repeat;
         background-size: 100% auto;
         background-position: center;
+        left: 0;
         &::after {
             display: none;
         }
     }
 
     .swiper-button-next {
-        right: 0;
         background-image: url(../img/arrow-next.svg);
         background-repeat: no-repeat;
         background-size: 100% auto;
         background-position: center;
+        right: 0;
         &::after {
             display: none;
         }
     }
 
     &-variations {
-        display: flex;
         align-items: center;
-        margin: 0.8rem 0 0.8rem;
+        display: flex;
+        margin: 8px 0 8px;
 
         .variations-item {
-            width: 2.7rem;
-            height: 2.7rem;
-            border-radius: 0.4rem;
+            border-radius: 4px;
             cursor: pointer;
+            height: 27px;
+            width: 27px;
             &:not(:last-child) {
-                margin-right: 0.8rem;
+                margin-right: 8px;
             }
         }
 
@@ -300,30 +300,30 @@
 
 /*=== nova coleção ===*/
 .nova-colecao {
-    padding: 8rem 0;
     background-color: #FAFAFA;
+    padding: 80px 0;
     .container {
-        display: flex;
         align-items: center;
+        display: flex;
         justify-content: space-between;
 
         .info {
-            height: 25.5rem;
+            height: 255px;
+            max-width: 465px;
             width: 100%;
-            max-width: 46.5rem;
             h2 {
-                font-weight: 700;
-                font-size: 2.4rem;
-                line-height: 3.7rem;
-                margin-bottom: 1.6rem;
                 color: #000000;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 37px;
+                margin-bottom: 16px;
             }
             p {
-                max-width: 42rem;
-                font-weight: 400;
-                font-size: 1.4rem;
-                line-height: 2.1rem;
                 color: #000000;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                max-width: 42px;
             }
         }
 
@@ -338,7 +338,7 @@
     }
     
     @include responsive(800px) {
-        padding: 4rem 0;
+        padding: 40px 0;
 
         .container {
             flex-direction: column;
@@ -346,7 +346,7 @@
             .info {
                 max-width: 100%;
                 height: auto;
-                margin-bottom: 1.5rem;
+                margin-bottom: 15px;
 
                 p {
                     max-width: 100%;
@@ -363,7 +363,7 @@
             .info {
                 height: initial;
                 p {
-                    margin-bottom: 1.4rem;
+                    margin-bottom: 14px;
                     font-weight: 400;
                     font-size: 14px;
                     line-height: 21px;
@@ -390,59 +390,59 @@
 
 /*=== newsletter ===*/
 .newsletter {
+    background-color: #FAFAFA;
     border-top: 2px solid #EFEFEF;
     border-bottom: 2px solid #EFEFEF;
     padding: 4rem 0;
-    background-color: #FAFAFA;
 
     .container {
-        justify-content: center;
-        display: flex;
         align-items: center;
+        display: flex;
+        justify-content: center;
         h3 {
-            font-weight: 700;
-            font-size: 2.4rem;
-            line-height: 3.7rem;
-            display: flex;
             align-items: center;
             color: #000000;
-            margin-right: 5.6rem;
+            display: flex;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 37px;
+            margin-right: 56px;
         }
 
         .search {
             width: 100%;
-            max-width: 79.1rem;
+            max-width: 791px;
             &-form {
                 display: flex;
                 position: relative;
 
                 .btn-primary {
                     position: absolute;
-                    right: 3rem;
+                    right: 30px;
                 }
             }
             input {
-                width: 100%;
-                max-width: 63rem;
-                height: 4rem;
+                background: transparent;
                 border-radius: 4px 0 0 4px;
                 border: 1px solid #353535;
-                background: transparent;
-                padding-left: 2.4rem;
-                margin-right: 1.3rem;
                 font-weight: 400;
-                font-size: 1.4rem;
-                line-height: 2.1rem;
-                margin-left: 1.5rem;
+                font-size: 14px;
+                height: 40px;
+                line-height: 21px;
+                margin-right: 13px;
+                margin-left: 15px;
+                max-width: 630px;
+                padding-left: 24px;
+                width: 100%;
                 &::placeholder {
                     color: #353535;
                 }
             }
             button {
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 21px;
                 color: #FFFFFF;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
                 margin-right: 10px;
             }
         }
@@ -452,7 +452,7 @@
         .container {
             .search {
                 input {
-                    max-width: 56rem;
+                    max-width: 560px;
                 }
             }
         }
@@ -462,7 +462,7 @@
         .container {
             .search {
                 input {
-                    max-width: 45rem;
+                    max-width: 450px;
                 }
             }
         }
@@ -473,7 +473,7 @@
             flex-direction: column;
             h3 {
                 margin-right: 0;
-                margin-bottom: 1rem;
+                margin-bottom: 10px;
             }
         }
     }
@@ -510,8 +510,8 @@
                         font-weight: 700;
                     }
                     input {
-                        max-width: 20.4rem;
                         border-radius: 4px;
+                        max-width: 204px;
                         margin-left: 0;
                     }
                 }
@@ -526,19 +526,19 @@ footer {
         background-color: #FAFAFA;
 
         .container {
+            align-items: flex-start;
             display: flex;
             justify-content: space-between;
-            align-items: flex-start;
             max-width: 1112px;
-            padding-top: 4rem;
-            padding-bottom: 4rem;
+            padding-top: 40px;
+            padding-bottom: 40px;
 
             .informacoes {
                 h4 {
-                    font-weight: 700;
-                    font-size: 1.6rem;
-                    line-height: 1.8rem;
                     color: #353535;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 18px;
                 }
                 
                 ul {
@@ -548,10 +548,10 @@ footer {
                         }
 
                         a {
-                            font-weight: 400;
-                            font-size: 1.2rem;
-                            line-height: 1.8rem;
                             color: #000000;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 18px;
                             transition: color .3s;
                             &:hover {
                                 color: #FAA500;
@@ -570,14 +570,14 @@ footer {
 
             .minha-conta {
                 h4 {
-                    font-weight: 700;
-                    font-size: 1.6rem;
-                    line-height: 1.8rem;
                     color: #353535;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 18px;
                 }
 
                 .titles {
-                    margin-bottom: 2.4rem;
+                    margin-bottom: 24px;
                     span {
                         display: none;
                     }
@@ -586,14 +586,14 @@ footer {
                 ul {
                     li {
                         &:not(:last-child) {
-                            margin-bottom: 2.4rem;
+                            margin-bottom: 24px;
                         }
 
                         a {
-                            font-weight: 400;
-                            font-size: 1.2rem;
-                            line-height: 1.8rem;
                             color: #000000;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 18px;
                             transition: color .3s;
                             &:hover {
                                 color: #FAA500;
@@ -605,23 +605,23 @@ footer {
 
             .onde-nos-encontrar {
                 h4 {
-                    font-weight: 700;
-                    font-size: 1.6rem;
-                    line-height: 1.8rem;
                     color: #353535;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 18px;
                 }
 
                 ul {
                     li {
                         &:not(:last-child) {
-                            margin-bottom: 2.4rem;
+                            margin-bottom: 24px;
                         }
 
                         a {
-                            font-weight: 400;
-                            font-size: 1.2rem;
-                            line-height: 1.8rem;
                             color: #000000;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 18px;
                             transition: color .3s;
                             &:hover {
                                 color: #FAA500;
@@ -631,7 +631,7 @@ footer {
                 }
 
                 .titles {
-                    margin-bottom: 2.4rem;
+                    margin-bottom: 24px;
                     span {
                         display: none;
                     }
@@ -642,24 +642,24 @@ footer {
 
     .copyright {
         background-color: #353535;
-        height: 8.5rem;
         display: flex;
+        height: 85px;
 
         .container {
-            display: flex;
             align-items: center;
+            display: flex;
             justify-content: space-between;
 
             .redes-sociais,
             .formas-de-pagamentos,
             .development {
                 ul {
-                    display: flex;
                     align-items: center;
+                    display: flex;
 
                     li {
                         &:not(:last-child) {
-                            margin-right: 2.2rem;
+                            margin-right: 22px;
                         }
                     }
                 }
@@ -686,12 +686,12 @@ footer {
     @include responsive(600px) {
         .copyright {
             height: initial;
-            padding: 2rem 0;
+            padding: 20px 0;
             .container {
 
                 div {
                     &:not(:last-child) {
-                        margin-right: 0.5rem;
+                        margin-right: 5px;
                     }
                 }
 
@@ -720,9 +720,9 @@ footer {
         .footer-content {
             background-color: #fff;
             .container {
-                flex-direction: column;
                 align-items: flex-start;
-                max-width: 29.8rem;
+                flex-direction: column;
+                max-width: 298px;
     
                 div {
                     &:not(:last-of-type) {
@@ -736,8 +736,8 @@ footer {
                     width: 100%;
                     max-width: 100%;
                     .titles {
-                        display: flex;
                         align-items: center;
+                        display: flex;
                         justify-content: space-between;
                         margin-bottom: 1.6rem;
                         span {
