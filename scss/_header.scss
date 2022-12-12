@@ -7,11 +7,11 @@ header {
 
     .topbar {
         background-color: #353535;
-        height: 2.4rem;
+        height: 24px;
         p {
             font-weight: 400;
-            font-size: 1.2rem;
-            line-height: 2.4rem;
+            font-size: 12px;
+            line-height: 18px;
             text-align: center;
             color: #FFFFFF;
         }
@@ -28,30 +28,30 @@ header {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            height: 8.8rem;
+            height: 88px;
     
             .search {
                 width: 100%;
-                max-width: 79.1rem;
+                max-width: 791px;
                 &-form {
                     display: flex;
                     position: relative;
     
                     .btn-primary {
                         position: absolute;
-                        right: 0.5rem;
+                        right: 0px;
                     }
                 }
                 input {
                     width: 100%;
-                    max-width: 67.2rem;
-                    height: 4rem;
+                    max-width: 672px;
+                    height: 40px;
                     border-radius: 10px 0 0 10px;
                     background: #EFEFEF;
-                    padding-left: 2.4rem;
+                    padding-left: 24px;
                     margin-right: 13px;
                     font-weight: 400;
-                    font-size: 1.2rem;
+                    font-size: 12px;
                     margin-left: 15px;
                     &::placeholder {
                         color: #353535;
@@ -70,12 +70,12 @@ header {
                 div {
                     display: flex;
                     &:not(:last-child) {
-                        margin-right: 3.9rem;
+                        margin-right: 39px;
                     }
                 }
                 svg {
                     fill: #353535;
-                    margin-right: 0.8rem;
+                    margin-right: 8px;
                     transition: fill .3s;
                 }
                 a {
@@ -92,8 +92,8 @@ header {
     
                     span {
                         font-weight: 400;
-                        font-size: 1.4rem;
-                        line-height: 2.1rem;
+                        font-size: 14px;
+                        line-height: 21px;
                         color: #353535;
                         white-space: nowrap;
                         transition: color .3s;
@@ -129,22 +129,24 @@ header {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            height: 4.8rem;
+            height: 48px;
             ul {
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
+                justify-content: center;
                 width: 100%;
-                max-width: 92.3rem;
                 margin: 0 auto;
                 li {
+                    width: 146px;
+                    margin: 0 15px;
                     a {
-                        font-weight: 400;
-                        font-size: 1.5rem;
-                        line-height: 2.1rem;
+                        align-items: center;
                         color: #353535;
                         display: flex;
-                        align-items: center;
+                        font-weight: 400;
+                        font-size: 14px;
+                        justify-content: center;
+                        line-height: 21px;
                         transition: color .3s;
                         &:hover {
                             color: #faa500;
@@ -167,7 +169,7 @@ header {
 
                 .menu-mobile {
                     display: block;
-                    margin-right: 1.9rem;
+                    margin-right: 19px;
                 }
             }
 
@@ -185,7 +187,7 @@ header {
                 display: flex;
 
                 .search-icon {
-                    margin-right: 3.5rem;
+                    margin-right: 35px;
                 }
             }
         }
@@ -200,7 +202,7 @@ header {
         .container {
             .logo {
                 img {
-                    max-width: 11rem;
+                    max-width: 110px;
                 }
             }
         }
