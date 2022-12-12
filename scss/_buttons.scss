@@ -1,0 +1,31 @@
+.btn-primary {
+    background-color: #faa500;
+    color: #fff;
+    border-radius: 8px;
+    padding: 1rem 4rem;
+    transition: background-color .3s;
+    &:hover {
+        background-color: #df9401;
+    }
+}
+
+a.btn-outline {
+    border: 1px solid #FAA500;
+    padding: 1.2rem 1.7rem;
+    border-radius: 8px;
+    transition: background-color .3s;
+    &:hover {
+        background-color: #FAA500;
+    }
+}
+
+.btn-news {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    color: #FAA500;
+    transition: color .3s;
+    &:hover {
+        color:#e09602;
+    }
+}
