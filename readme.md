@@ -2,7 +2,7 @@
    Layout Desafio Maeztra
 </h1>
 
-## ⚡ Tecnologias
+## Tecnologias
 
 <img alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=flat">&nbsp;
 <img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat">&nbsp;
@@ -10,10 +10,10 @@
 <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black">&nbsp;
 <img alt="Gulp" src="https://img.shields.io/badge/gulp-CF4647?logo=gulp&logoColor=fff&style=flat">&nbsp;
 
-## ℹ️ Como Usar
+## Como Usar
 
 
-#### ⚙️ Requisitos
+## Requisitos
 
 <img alt="Git" src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff&style=flat">&nbsp;
 <img alt="Gulp" src="https://img.shields.io/badge/gulp-CF4647?logo=gulp&logoColor=fff&style=flat">&nbsp;
